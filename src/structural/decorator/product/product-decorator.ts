@@ -11,10 +11,10 @@ export class ProductDecorator implements ProductProtocol {
   constructor(protected product: ProductProtocol) {}
 
   getName(): string {
-    return this.product.getName();
+    return this.product.getName() + '(estampada)';
   }
 
   getPrice(): number {
-    return this.product.getPrice();
+    return this.product.getPrice() + 5;
   }
 }
