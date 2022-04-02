@@ -1,4 +1,4 @@
-# Teoria:
+# Decorator
 
 ### TIPO:
 
